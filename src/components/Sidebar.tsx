@@ -163,6 +163,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
     },
     { icon: MountainSnow, label: '日剧', href: '/douban?type=tv&tag=日剧' },
     { icon: VenetianMask, label: '日漫', href: '/douban?type=tv&tag=日本动画' },
+    { icon: VenetianMask, label: '国漫', href: '/douban?type=movie&tag=国漫&title=国漫' },
   ];
 
   return (
